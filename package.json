@@ -1,0 +1,29 @@
+{
+  "name": "speedex",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "Speedex 是 Speedup 的功能扩展",
+  "main": "dist/index.mjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "unbuild --stub",
+    "build": "unbuild"
+  },
+  "keywords": [
+    "speedex",
+    "speedup"
+  ],
+  "author": "Jake <qiu5630@163.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/qiuyongjin/speedex#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiuyongjin/speedex.git"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "typescript": "^4.7.4",
+    "unbuild": "^0.7.6"
+  }
+}
