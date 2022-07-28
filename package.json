@@ -2,7 +2,7 @@
   "name": "speedex",
   "type": "module",
   "version": "0.0.0",
-  "description": "Speedex 是 Speedup 的功能扩展",
+  "description": "Speedex is an extension of Speedup",
   "main": "dist/index.mjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
